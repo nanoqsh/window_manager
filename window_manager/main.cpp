@@ -13,11 +13,11 @@ int main()
 	auto wm = std::make_shared<window_manager>();
 
 	unsigned win1 = wm->create_window(
-		50,							// x position
-		50,							// y position
-		500,						// width 
-		200,						// height
-		1,							// layer in range [0; 999]
+		50,				// x position
+		50,				// y position
+		500,				// width 
+		200,				// height
+		1,				// layer in range [0; 999]
 		glm::vec3(0.1f, 0.3f, 0.5f)	// color
 		);
 
